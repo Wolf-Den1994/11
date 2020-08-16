@@ -1,0 +1,153 @@
+body{
+	background-color: #B17E4F;
+	font: 13px "Trebuchet MS",Arial,Helvetica,sans-serif;
+	margin: 0;
+}
+.wrapper{
+	width:960px;
+	margin: auto;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 60px 30px 10px;
+}
+.logo{
+	color: white;
+	text-decoration: none;
+	font-size:44px;
+	font-weight:700;
+	line-height:1.2em;
+	letter-spacing:-1px;
+}
+.header p{
+	margin-top: 7px;
+	margin-bottom: 0;
+	font-size:16px;
+	color:#CEB6A4;
+	line-height:1.2em;
+	text-transform: lowercase;
+}
+.main{
+	background-color: white;
+	padding: 15px 16px; /* отступ */
+}
+/* menu */
+.list{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 0;
+	margin-top: 0;
+}
+.item{
+	list-style: none;
+	background-color: black;
+	width: 20%;
+	text-transform:uppercase;
+	margin-bottom: 2px;
+}
+.item-link{
+	text-decoration: none;
+	display: block;
+	padding: 20px 15px;	/* Размер ссылки меню */
+	color: white;
+	text-align: center;
+}
+.item-link:hover, .active{
+	background-color: #1B3039;
+}
+
+.figure{
+	margin: 0;
+}
+.img{
+	width: 100%;
+}
+
+/* content */
+.content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.left{
+	padding-left: 15px;
+	/* padding-bottom: 10px; */
+	width: 570px;
+}
+.topic{
+	color: #9F6841;
+	text-decoration: none;
+	font-size: 39px;
+	font-weight: 900;
+	letter-spacing:-1px;
+}
+.a{
+	color: #96AE3E;
+	text-decoration: none;
+}
+.left p{
+	margin-top: 0px;
+	margin-bottom: 30px;
+	color: #444;
+	line-height: 2;
+}
+
+.right{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	padding: 20px 0px;	
+}
+.box{
+	background-color: #EFEDE5;
+	border:1px solid #E8E6DE;
+	padding: 7px 7px;
+	margin-bottom: 20px;
+}
+h3{
+	background: #5D9EBD;
+    border: 1px solid #5692AE;
+	color: white;
+	font-size: 1.5em;
+	line-height: 2em;
+	margin: 0;
+	padding-left: 15px;
+}
+.list-box{
+	padding-left: 15px;
+	margin-top: 13px;
+}
+.item-link-box{
+	color: #96AE3E;
+	text-decoration: none;
+}
+.item-box{
+	list-style: none;
+	border-bottom: 1px solid rgb(220,220,220);
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.box p{
+	padding: 7px 15px;
+	line-height: 2;
+}
+
+/* footer */
+.footer{
+	background-color: white;
+	text-align: center;
+	padding: 30px 15px;
+	margin-bottom: 40px;
+	color: #444;
+	margin-top: -5px;
+}
+.footer p{
+	background-color: #D1E4A7;
+	padding: 30px 15px;
+	margin: 0;
+}
